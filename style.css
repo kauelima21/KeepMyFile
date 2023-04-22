@@ -1,10 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
 :root {
-  --primary: #4863F7;
-  --primary-hover: #6A80FF;
-  --white: #FFFFFF;
+  --primary: #4863f7;
+  --primary-hover: #6a80ff;
+  --white: #ffffff;
   --black: #121214;
   --black-hover: #505059;
-  --font: 'Roboto', sans-serif;
+  --font: "Roboto", sans-serif;
   --fw-regular: 400;
   --fw-medium: 500;
   --fw-semibold: 600;
@@ -15,4 +17,50 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: var(--font);
+}
+
+.menu {
+  color: var(--white);
+  height: 90px;
+  box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 120px;
+}
+.menu-title {
+  /* display: inline-block;
+  margin-left: 150px;
+  font-size: 32px;
+  margin-top: 20px; */
+  font-size: 2rem; /*rem equivale a 16px, usando bastante em trabalhos responsivos*/
+  color: var(--black);
+}
+.menu-btn-group {
+  /* margin-left: 850px;
+  display: inline-block; */
+  display: flex;
+  gap: 24px;
+}
+.menu-btn-group li {
+  list-style: none;
+}
+.menu-btn-group .menu-btn {
+  /* display: inline-block; */
+  /* background-color: #4863f7;
+  padding: 10.5px;
+  width: 147px;
+  text-align: center;
+  margin-left: 24px;
+  font-size: 16px;
+  border-radius: 10px; */
+  background-color: var(--primary);
+  padding: 12px 32px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: var(--fw-medium);
+  color: var(--white);
+  text-decoration: none;
+  text-transform: uppercase;
 }
