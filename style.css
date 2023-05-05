@@ -74,6 +74,14 @@
   max-width: 650px;
   justify-self: center;
 }
+.main div h1 {
+  padding-bottom: 20px;
+  font-size: 1.75rem;
+}
+.main div p {
+  padding-bottom: 20px;
+  font-size: 1.125rem;
+}
 .main img {
   justify-self: center;
 }
