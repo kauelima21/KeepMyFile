@@ -64,3 +64,25 @@
   text-decoration: none;
   text-transform: uppercase;
 }
+.main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 80px 120px;
+}
+.main div {
+  align-self: center;
+  max-width: 650px;
+  justify-self: center;
+}
+.main img {
+  justify-self: center;
+}
+.footer {
+  height: 140px;
+  background-color: var(--primary);
+  margin-top: 140px;
+  display: flex;
+  align-items: center;
+  color: var(--white);
+  justify-content: center;
+}
